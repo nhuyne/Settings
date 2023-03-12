@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/st_count"
+        android:title="Count"
+        android:orderInCategory="10"/>
+
+    <item
+        android:id="@+id/st_color"
+        android:title="Color"
+        android:orderInCategory="20">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/cl_red"
+                android:title="Red"
+                android:orderInCategory="10"/>
+
+            <item
+                android:id="@+id/cl_black"
+                android:title="Black"
+                android:orderInCategory="20"/>
+            <item
+                android:id="@+id/cl_green"
+                android:title="Green"
+                android:orderInCategory="10"/>
+
+            <item
+                android:id="@+id/cl_blue"
+                android:title="Blue"
+                android:orderInCategory="20"/>
+        </menu>
+    </item>
+</menu>
